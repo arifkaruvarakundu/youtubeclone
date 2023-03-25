@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body{
+    background-color: #f9f9f9;
+}
+.youtubeheader{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.youtubelogosvg{
+    height: 29px;
+    margin:7px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.youtubeSearchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.youtubeHeaderSearchInput{
+    outline: none;
+    padding: 4px;
+    width: 30em;
+    font-size: 17px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtubeHeaderSearchInput::-webkit-input-placeholder{
+    font-size: 17px;
+
+}
+.searchIconHeader{
+    padding: 8px;
+    border: 1px solid grey;
+    background-color: #f8f8f8;
+    padding-left: 25px;
+    padding-right: 25px;
+    outline: none;
+    cursor:pointer;
+}
+.searchIconHeader i {
+    color: #606060;
+    font-size: 15px;
+
+
+}
+.youtubeheaderIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.youtubeheaderIcon{
+    color: #606060;
+    margin: 13px;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.avatar{
+    border-radius: 200px;
+
+}
+.youtubeheaderAvatarIcon{
+    border-radius: 200px;
+    height:35px;
+}
+.youtubeBottomSection{
+    display: flex;
+    flex-direction: row;
+}
+.youtubeSidebar{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+.youtubeSidebarField{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+.youtubeSidebarField:hover{
+    background-color: #e5e5e5ab;
+
+}
+.youtubeSidebarField i {
+    font-size:15px;
+    color:#606060;
+    margin: 10px;
+    margin-right: 25px;
+    margin-left: 20px;
+
+}
+.youtubeSidebarField h1{
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+
+}
+.youtubeSidebar_hr{
+    height: 1px;
+    border-top: 1px solid rgba(128,128,128,0.397);
+    width:100%;
+    margin:10px;
+
+}
+.youtubeVideos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    flex: 1;
+    margin-left: 250px;
+    width: 100%;
+}
+.youtubeVideo{
+    display: flex;
+    flex-direction: column;
+    height: fit-content ;
+    width: 220px;
+    padding:5px;
+    cursor: pointer;
+}
+.youtubeVideoThumbnail{
+    height:auto;
+    width: 210px;
+
+}
+.youtubeVideoDetails{
+    display: flex;
+    flex-direction: row;
+
+}
+.youtubeChannelThumbnail{
+    border-radius:200px;
+    height: 40px;
+    margin-top: 12px;
+
+}
+.youtubeVideoDetailsText{
+    display: flex;
+    flex-direction: column;
+
+}
+.youtubeVideoTitle{
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #000;
+    font-weight:500;
+    margin: 10px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+.youtubeVideoViews{
+    font-size: 13px;
+    font-family: 'Roboto';
+    color: #606060;
+    font: weight 400px;;
+    margin: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+.youtubeChannelName, .youtubeVideoViews{
+    font-size: 13px;
+    font-family: 'Roboto';
+    color: #606060;
+    font: weight 400px;;
+    margin: 10px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+.youtubeVideoViews{
+    margin-top: -12px;
+}
